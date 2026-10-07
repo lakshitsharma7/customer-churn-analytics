@@ -21,7 +21,7 @@ nb1.metadata.kernelspec = {"display_name": "Python 3", "language": "python", "na
 
 nb1.cells.append(new_markdown_cell("""# 📊 CloudSync SaaS Analytics: 01. Data Cleaning & Integrity Audit
 
-**Author:** Antigravity Data Intelligence & Business Analytics Team  
+**Project:** CloudSync Customer Churn & Retention Analytics  
 **Dataset:** CloudSync Enterprise Customer & Subscription Ecosystem (12,000+ Accounts)  
 **Objective:** Perform enterprise-grade data auditing, missing value treatment, deduplication, casing standardization, date validation, outlier remediation, and export clean star-schema datasets.
 
@@ -206,7 +206,7 @@ nb2.metadata.kernelspec = {"display_name": "Python 3", "language": "python", "na
 
 nb2.cells.append(new_markdown_cell("""# 📈 CloudSync SaaS Analytics: 02. Exploratory Data Analysis & Executive KPIs
 
-**Author:** Antigravity Data Intelligence & Business Analytics Team  
+**Project:** CloudSync Customer Churn & Retention Analytics  
 **Dataset:** CloudSync SaaS Cleaned Multi-Table Repository  
 **Objective:** Calculate foundational SaaS executive KPIs (MRR, ARR, ARPU, LTV, Churn Rate, Retention Rate), evaluate univariate/bivariate distributions, analyze cohort retention dynamics, and diagnose revenue loss drivers.
 
@@ -377,7 +377,7 @@ nb3.metadata.kernelspec = {"display_name": "Python 3", "language": "python", "na
 
 nb3.cells.append(new_markdown_cell("""# 🎯 CloudSync SaaS Analytics: 03. Customer Segmentation & Health Scoring
 
-**Author:** Antigravity Data Intelligence & Business Analytics Team  
+**Project:** CloudSync Customer Churn & Retention Analytics  
 **Dataset:** CloudSync Enriched Master Profile  
 **Objective:** Construct RFM (Recency, Frequency, Monetary) quintile scoring, engineer a multi-factor SaaS Customer Health Score (0–100), define strategic business value segments, and perform K-Means unsupervised behavioral clustering.
 
@@ -480,7 +480,7 @@ nb4.metadata.kernelspec = {"display_name": "Python 3", "language": "python", "na
 
 nb4.cells.append(new_markdown_cell("""# 🤖 CloudSync SaaS Analytics: 04. Churn Risk Modeling & Decision Intelligence
 
-**Author:** Antigravity Data Intelligence & Business Analytics Team  
+**Project:** CloudSync Customer Churn & Retention Analytics  
 **Dataset:** CloudSync Master Customer Profile  
 **Objective:** Develop interpretable machine learning models (Logistic Regression baseline vs. Random Forest Classifier) to estimate customer-level churn probabilities, evaluate feature importance / odds ratios, stratify risk categories, and establish targeted retention triggers.
 

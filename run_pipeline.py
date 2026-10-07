@@ -1,13 +1,9 @@
 import os
-import sys
 import sqlite3
-import json
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from datetime import datetime
-import nbformat as nbf
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
@@ -16,7 +12,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import (
     accuracy_score, precision_score, recall_score, f1_score,
-    roc_auc_score, roc_curve, confusion_matrix, classification_report
+    roc_auc_score, roc_curve, confusion_matrix
 )
 from sklearn.cluster import KMeans
 
@@ -31,9 +27,6 @@ DATA_DIR = os.path.join(BASE_DIR, 'data')
 CLEAN_DIR = os.path.join(DATA_DIR, 'cleaned')
 NB_DIR = os.path.join(BASE_DIR, 'notebooks')
 SCREENSHOTS_DIR = os.path.join(BASE_DIR, 'screenshots')
-REPORTS_DIR = os.path.join(BASE_DIR, 'reports')
-SQL_DIR = os.path.join(BASE_DIR, 'sql')
-POWERBI_DIR = os.path.join(BASE_DIR, 'powerbi')
 
 os.makedirs(CLEAN_DIR, exist_ok=True)
 os.makedirs(SCREENSHOTS_DIR, exist_ok=True)

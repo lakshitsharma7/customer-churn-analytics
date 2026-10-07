@@ -145,7 +145,7 @@ for bar in bars:
 
 # 5. Support Ticket Resolution Time vs Churn
 ax5 = fig.add_subplot(gs[2, 1])
-sns.boxplot(data=df_master, x='subscription_status', y='avg_resolution_hours', palette={'Active': C_SUCCESS, 'Churned': C_DANGER, 'Paused': C_WARNING}, ax=ax5)
+sns.boxplot(data=df_master, x='subscription_status', y='avg_resolution_hours', hue='subscription_status', legend=False, palette={'Active': C_SUCCESS, 'Churned': C_DANGER, 'Paused': C_WARNING}, ax=ax5)
 ax5.set_title("Avg Support Resolution Hours by Status", fontsize=11, fontweight='bold')
 ax5.set_ylabel("Resolution Time (Hours)")
 

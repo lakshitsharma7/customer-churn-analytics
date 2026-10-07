@@ -23,7 +23,12 @@
 10. [Top 10 Empirical Business Insights](#-top-10-empirical-business-insights)
 11. [Strategic Management Recommendations](#-strategic-management-recommendations)
 12. [Project Repository Structure](#-project-repository-structure)
-13. [Installation & Execution Guide](#-installation--execution-guide)
+13. [Technology Stack & Environment](#-technology-stack--environment)
+14. [System Requirements & Prerequisites](#-system-requirements--prerequisites)
+15. [Installation & Setup Steps](#-installation--setup-steps)
+16. [Configuration Instructions](#-configuration-instructions)
+17. [How to Run the Project](#-how-to-run-the-project-step-by-step-execution)
+18. [Build & Deployment Instructions](#-build--deployment-instructions-power-bi--productionization)
 
 ---
 

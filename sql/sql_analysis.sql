@@ -2,7 +2,6 @@
 -- CloudSync SaaS Customer Churn & Retention Analytics
 -- Comprehensive SQL Intelligence Suite (20 Production-Grade Analytical Queries)
 -- =====================================================================================
--- Author: Antigravity Data Intelligence & Business Analytics Team
 -- Database: CloudSync SaaS Data Warehouse (Star Schema Architecture)
 -- Dialect: ANSI SQL / SQLite / PostgreSQL Compatible
 -- =====================================================================================
